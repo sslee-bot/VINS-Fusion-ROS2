@@ -83,6 +83,10 @@ install(
   DESTINATION lib/${PROJECT_NAME}
 )
 
+install(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/../config
+  DESTINATION share/${PROJECT_NAME}
+)
+
 
 
 # Install binaries
